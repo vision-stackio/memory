@@ -1,0 +1,17 @@
+{
+  "name": "vision-memory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "memory usage for vision",
+  "scripts": {
+    "start": "tsx src/cli.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": { "node": ">=18" }
+}
